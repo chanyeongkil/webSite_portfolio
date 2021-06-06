@@ -7,14 +7,13 @@
     <title>Kil's Portfolio</title>
     <meta name="description" content="Portfolio for S/W Engineer!"/>
     <meta name="author" content="Kil"/>
-
+    <!-- 즐겨찾기 등록 시 사용되는 아이콘 등록 -->
     <link rel="icon" type="imge/png" href="imgs/angellist-brands.png">
 
-    <script>
-        src="https://kit.fontawesome.com/e797d9f21f.js"
-        crossorigin="anonymous"
-    </script>
-    
+    <!-- Font Awesome CDN을 사용하여 연동-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- Google Font 연동 -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -23,6 +22,35 @@
     
 </head>
 <body>
-    
+    <!-- Navi bar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <i class="fab fa-angellist"></i>
+            <a href="#">Kill's</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item">Home</li>
+            <li class="navbar__menu__item">About</li>
+            <li class="navbar__menu__item">Skills</li>
+            <li class="navbar__menu__item">My Works</li>
+            <li class="navbar__menu__item">추천사</li>
+            <li class="navbar__menu__item">연락처</li>
+        </ul>
+    </nav>
+
+    <!-- About -->
+    <section id="about"></section>
+
+    <!-- 스킬 -->
+    <section id="skills"></section>
+
+    <!-- 경력 -->
+    <section id="work"></section>
+
+    <!-- 추천사 -->
+    <section id="testimonials"></section>
+
+    <!-- 연락 -->
+    <section id="contact"></section>
 </body>
 </html>
